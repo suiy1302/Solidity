@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "payee",
+						"type": "address"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "deposits",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "payee",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tutorial/Escrow.sol": "Escrow"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tutorial/Escrow.sol": {
+			"keccak256": "0xf78b3aa2b65d03147ccc95f960e79be06c81f027eb2698f12ee9c7324face0f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed08dd7cd9b1a80735ffb0a563eaab8fe10bf6f63a3e9e50de72ad3e646ff732",
+				"dweb:/ipfs/QmVukaJek48m8WtKRPjDCbttvKEA2cZQBoJusS7KETytc5"
+			]
+		},
+		"contracts/Tutorial/SafeMath.sol": {
+			"keccak256": "0x1ce918c173f89732e0b5e753dae4f7255b5e2306d4548a19a32f9afb996913d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d474410d27967af88a1e555a1eb534caf54444aca4fe9d4aa8030924e3ee775",
+				"dweb:/ipfs/QmUGdx4UvyBSgdjjuxwxjVZThviYk1GTjecVNZsBdYUZuH"
+			]
+		}
+	},
+	"version": 1
+}

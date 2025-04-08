@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value2",
+						"type": "uint256"
+					}
+				],
+				"name": "calculate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tutorial/Library_Math.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tutorial/Library_Math.sol": {
+			"keccak256": "0x23ac9e26868b3d2ca24ea6c36ece5ddab16e551f7dd1225081fea0b70a555e45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f83153f292669951a0e51fae6fc196ddfbc49f6f65a94a192e9602d8464f664",
+				"dweb:/ipfs/QmbwHKCErpW41jNrqsKkmsTTxuvDNBW3nr1HcpexwJpmUk"
+			]
+		},
+		"contracts/Tutorial/SafeMath.sol": {
+			"keccak256": "0x1ce918c173f89732e0b5e753dae4f7255b5e2306d4548a19a32f9afb996913d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d474410d27967af88a1e555a1eb534caf54444aca4fe9d4aa8030924e3ee775",
+				"dweb:/ipfs/QmUGdx4UvyBSgdjjuxwxjVZThviYk1GTjecVNZsBdYUZuH"
+			]
+		}
+	},
+	"version": 1
+}
